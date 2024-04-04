@@ -1,3 +1,16 @@
+@keyframes fadeAnimation{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +20,53 @@
 
 /*NAVBAR ICON COLOR*/
 
-  /* Customize the color of the toggler icon */
-  .toggle-icon {
-    color: #fff; /* Change to your preferred color */
-  }
+body{
+    background-color: #F3B700;
+}
+
+.nav-main{
+    padding: 20px 40px;
+}
+
+.nav-container{
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    padding: 10px;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
+
+.nav-link-items{
+    color: white;
+}
+
+.section-container{
+    margin-top: 10px;
+    padding: 20px 50px;
+    border: 2px solid black;
+    transition: box-shadow 200ms;
+}
+
+.section-container:hover{
+    box-shadow: 5px 5px 1px black;
+}
+
+.btn-resume{
+    padding: 10px 20px;
+    background-color: transparent;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: background-color 200ms;
+}
+
+.btn-resume:hover{
+    background-color: #E57C04;
+}
+
+.img-avatar{
+    animation: fadeAnimation 1s;
+}
+
 

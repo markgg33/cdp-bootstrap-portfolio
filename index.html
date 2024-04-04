@@ -22,33 +22,53 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-3">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon toggle-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ms-auto" id="navmenu">
-            <li class="nav-item">
-              <a href="#learn" class="nav-link">What You'll learn</a>
-            </li>
-            <li class="nav-item">
-              <a href="#questions" class="nav-link">Questions</a>
-            </li>
-            <li class="nav-item">
-              <a href="#instructors" class="nav-link">Instructors</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg nav-main">
+      <div class="container-fluid nav-container">
+        <a href="#" class="navbar-brand">my<strong>Portfolio</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-items active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-items" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-items" href="#">Portfolio</a>
+              </li>
+            </ul>
       </div>
     </nav>
+
+    <section class="section-main text-center text-md-start px-3">
+        <div class="container-lg section-container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>I'm a <strong id="auto-type"></strong></h1>
+                    <p class="lead my-3">
+                      Commit your changes before shutting down the laptop
+                    </p>
+                    <button class="btn-resume">Download CV here</button>
+                </div> 
+                <img class="img-fluid w-50 d-none d-sm-block px-2 img-avatar" src="images/avatar.png" alt=""/>
+              </div>
+        </div>
+    </section>
+    
+    <!--AUTO TYPING SCRIPT JS PLUGIN-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#auto-type', {
+          strings: ['Student Developer', 'Video Editor'],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true
+        });
+      </script>
+
   </body>
 </html>
