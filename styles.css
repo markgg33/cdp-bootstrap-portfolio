@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*NAVBAR ICON COLOR*/
+
+  /* Customize the color of the toggler icon */
+  .toggle-icon {
+    color: #fff; /* Change to your preferred color */
+  }
+
