@@ -1,72 +1,96 @@
-@keyframes fadeAnimation{
-    from{
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
+@keyframes fadeAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*NAVBAR ICON COLOR*/
 
-body{
-    background-color: #F3B700;
+body {
+  background-color: #14213d;
 }
 
-.nav-main{
-    padding: 20px 40px;
+.nav-brand {
+  color: #fca311;
+  transition: color 200ms;
 }
 
-.nav-container{
-    border-top: 1.5px solid black;
-    border-bottom: 1.5px solid black;
-    padding: 10px;
+.nav-brand:hover {
+  color: white;
 }
 
-.navbar-toggler-icon{
-    color: black;
+.nav-main {
+  padding: 20px 40px;
 }
 
-.nav-link-items{
-    color: white;
+.nav-container {
+  border-top: 1.5px solid #fca311;
+  border-bottom: 1.5px solid #fca311;
+  padding: 10px;
 }
 
-.section-container{
-    margin-top: 10px;
-    padding: 20px 50px;
-    border: 2px solid black;
-    transition: box-shadow 200ms;
-}
-
-.section-container:hover{
-    box-shadow: 5px 5px 1px black;
-}
-
-.btn-resume{
+.custom-toggler{
     padding: 10px 20px;
+    border: none;
+}
+
+.fa-bars{
+    color: #fca311;
+}
+
+.nav-link-items {
+  color: #fca311;
+  transition: color 200ms, font-weight 200ms;
+}
+
+.nav-link-items:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.section-container {
+  margin-top: 10px;
+  padding: 20px 50px;
+  border: 2px solid #fca311;
+  transition: box-shadow 200ms;
+  color: #fca311;
+}
+
+.section-container:hover {
+  box-shadow: 7px 7px 1px #fca311;
+}
+
+.btn-resume {
+  padding: 10px 20px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid #fca311;
+  transition: background-color 200ms, color 200ms;
+  color: #fca311;
+}
+
+.btn-resume:hover {
+  background-color: #e57c04;
+  color: black;
+}
+
+.img-avatar {
+  animation: fadeAnimation 1s;
+}
+
+.custom-card{
     background-color: transparent;
-    font-weight: bold;
-    border: 2px solid black;
-    transition: background-color 200ms;
+    border: 3px solid #fca311;
 }
-
-.btn-resume:hover{
-    background-color: #E57C04;
-}
-
-.img-avatar{
-    animation: fadeAnimation 1s;
-}
-
-

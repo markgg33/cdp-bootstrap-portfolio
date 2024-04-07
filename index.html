@@ -20,18 +20,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animated-counter-prograssbar.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg nav-main">
       <div class="container-fluid nav-container">
-        <a href="#" class="navbar-brand">my<strong>Portfolio</strong></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a href="#" class="navbar-brand nav-brand">my<strong>Portfolio</strong></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link nav-link-items active " aria-current="page" href="#">Home</a>
+                <a class="nav-link nav-link-items"  href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-link-items" href="#">About</a>
@@ -43,20 +44,151 @@
       </div>
     </nav>
 
-    <section class="section-main text-center text-md-start px-3">
+    <section class="section-main text-md-start px-3">
         <div class="container-lg section-container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
                     <h1>I'm a <strong id="auto-type"></strong></h1>
                     <p class="lead my-3">
-                      Commit your changes before shutting down the laptop
+                      "Always be persevered, be hungry for knowledge, for you will always learn something new"
                     </p>
-                    <button class="btn-resume">Download CV here</button>
+                    <button class="btn-resume">Contact now</button>
                 </div> 
                 <img class="img-fluid w-50 d-none d-sm-block px-2 img-avatar" src="images/avatar.png" alt=""/>
               </div>
         </div>
     </section>
+
+    <section class="about-section my-4 px-3">
+      <h1 class="text-center mb-3" style="color: #fca311"><strong>SKILLS PROFICIENCY</strong></h1>
+      <div class="container-lg section-container">
+
+        <div class="row g-4">
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">HTML / CSS</h4>
+                <div progress-bar data-percentage="80%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">JAVASCRIPT</h4>
+                <div progress-bar data-percentage="40%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">PHP</h4>
+                <div progress-bar data-percentage="60%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row g-4 mt-1">
+
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">PHOTOSHOP</h4>
+                <div progress-bar data-percentage="60%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">VEGAS PRO</h4>
+                <div progress-bar data-percentage="80%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg">
+            <div class="card p-3 custom-card">
+              <div class="progressbar-item">
+                <h4 class="progress-title">FLUTTER</h4>
+                <div progress-bar data-percentage="60%">
+                  <div class="progress-number">
+                    <div class="progress-number-mark">
+                      <span class="percent"></span>
+                      <span class="down-arrow"></span>
+                    </div>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
     
     <!--AUTO TYPING SCRIPT JS PLUGIN-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -69,6 +201,8 @@
           loop: true
         });
       </script>
+
+<script src="animated-counter-prograssbar.js"></script>
 
   </body>
 </html>
