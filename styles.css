@@ -66,11 +66,9 @@ body {
   border: 2px solid #fca311;
   transition: box-shadow 200ms;
   color: #fca311;
-}
-
-.section-container:hover {
   box-shadow: 7px 7px 1px #fca311;
 }
+
 
 .btn-resume {
   padding: 10px 20px;
@@ -93,4 +91,13 @@ body {
 .custom-card{
     background-color: transparent;
     border: 3px solid #fca311;
+}
+
+.img-about{
+  width: 30%;
+  margin: 20px 0;
+}
+
+.bold-text{
+  font-weight: bold;
 }
