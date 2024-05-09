@@ -101,3 +101,7 @@ body {
 .bold-text{
   font-weight: bold;
 }
+
+.about-text{
+  text-align: justify;
+}
