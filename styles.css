@@ -62,7 +62,7 @@ body {
 
 .section-container {
   margin-top: 10px;
-  padding: 20px 50px;
+  padding: 30px 50px;
   border: 2px solid #fca311;
   transition: box-shadow 200ms;
   color: #fca311;
@@ -77,6 +77,7 @@ body {
   border: 2px solid #fca311;
   transition: background-color 200ms, color 200ms;
   color: #fca311;
+  text-decoration: none;
 }
 
 .btn-resume:hover {
@@ -104,4 +105,12 @@ body {
 
 .about-text{
   text-align: justify;
+}
+
+.card-container{
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: 2px solid #fca311;
+  color: #fca311;
+  box-shadow: 5px 5px 1px #fca311;
 }
