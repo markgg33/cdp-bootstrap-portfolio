@@ -41,13 +41,13 @@ body {
   padding: 10px;
 }
 
-.custom-toggler{
-    padding: 10px 20px;
-    border: none;
+.custom-toggler {
+  padding: 10px 20px;
+  border: none;
 }
 
-.fa-bars{
-    color: #fca311;
+.fa-bars {
+  color: #fca311;
 }
 
 .nav-link-items {
@@ -69,7 +69,6 @@ body {
   box-shadow: 7px 7px 1px #fca311;
 }
 
-
 .btn-resume {
   padding: 10px 20px;
   background-color: transparent;
@@ -89,28 +88,33 @@ body {
   animation: fadeAnimation 1s;
 }
 
-.custom-card{
-    background-color: transparent;
-    border: 3px solid #fca311;
+.custom-card {
+  background-color: transparent;
+  border: 3px solid #fca311;
 }
 
-.img-about{
+.img-about {
   width: 30%;
   margin: 20px 0;
 }
 
-.bold-text{
+.bold-text {
   font-weight: bold;
 }
 
-.about-text{
+.about-text {
   text-align: justify;
 }
 
-.card-container{
+.card-container {
   padding-bottom: 10px;
   background-color: transparent;
   border: 2px solid #fca311;
   color: #fca311;
   box-shadow: 5px 5px 1px #fca311;
+}
+
+.learn-container {
+  margin: 30px 0;
+  background-color: #fca311;
 }
