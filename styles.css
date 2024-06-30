@@ -19,7 +19,7 @@
 /*NAVBAR ICON COLOR*/
 
 body {
-  background-color: #14213d;
+  background-color: #14213d !important; 
 }
 
 .nav-brand {
