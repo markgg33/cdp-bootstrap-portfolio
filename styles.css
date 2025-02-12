@@ -19,7 +19,7 @@
 /*NAVBAR ICON COLOR*/
 
 body {
-  background-color: #14213d;
+  background-color: #14213d !important; 
 }
 
 .nav-brand {
@@ -116,5 +116,18 @@ body {
 
 .learn-container {
   margin: 30px 0;
+  background-color: #fca311;
+}
+
+/*FOOTER*/
+
+.bootstrap-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: rgb(54, 54, 54);
+  padding: 30px 0;
   background-color: #fca311;
 }
